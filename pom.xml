@@ -78,7 +78,7 @@
                 <executions>
                     <execution>
                         <configuration>
-                            <executable>python</executable>
+                            <executable>python3</executable>
                             <workingDirectory>src/main/antlr4/imports</workingDirectory>
                             <commandlineArgs>make_ci.py Keywords.g4.in</commandlineArgs>
                         </configuration>
